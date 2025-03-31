@@ -16,9 +16,10 @@ Jortech is a custom WordPress theme built with Bootstrap, Owl Carousel, and Isot
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/<your-username>/<your-repository>.git
+   git clone https://github.com/jordanovx/CustomTheme.git
+   ```
 2. **Install the theme**:
-Copy the jortech folder to the wp-content/themes/ directory of your WordPress installation.
+   Copy the jortech folder to the wp-content/themes/ directory of your WordPress installation.
 
 3. **Activate the theme**:
-In the WordPress Admin dashboard, navigate to Appearance > Themes and activate Jortech.
+   In the WordPress Admin dashboard, navigate to Appearance > Themes and activate Jortech.
