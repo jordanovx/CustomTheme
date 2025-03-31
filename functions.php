@@ -25,7 +25,6 @@ function jortech_enqueue_assets()
     wp_enqueue_script('owl-js', get_template_directory_uri() . '/assets/js/owl.js', array('jquery'), null, true);
 
     // Enqueue custom JS
-    // wp_enqueue_script('custom-js', get_template_directory_uri() . '/assets/js/custom.js', array('jquery', 'bootstrap-js'), null, true);
     wp_enqueue_script(
         'custom-js',
         get_template_directory_uri() . '/assets/js/custom.js',
