@@ -1,21 +1,7 @@
+<!-- Load header -->
 <?php get_header(); ?>
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description"
-    content="JorTech Solutions provides cutting-edge IT solutions, custom software development, and digital services to boost your business success.">
-  <meta name="author" content="">
-  <!-- <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,700" rel="stylesheet"> -->
-</head>
-
 <body>
-
-
-
   <!-- Banner Start -->
   <div class="banner">
     <div class="container">
@@ -38,6 +24,30 @@
   </div>
   <!-- Banner End -->
 
+  <!-- About Us Section -->
+  <section class="about-us">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="section-heading">
+            <div class="line-dec"></div>
+            <h2>About Us</h2>
+          </div>
+          <p class="section-description">
+            Welcome to JorTech Solutions, where innovation meets excellence. Our team is dedicated to providing top-notch solutions tailored to your needs.
+          </p>
+          <p class="section-description">
+            With years of experience in the industry, we pride ourselves on our commitment to quality and customer satisfaction. Join us on our journey to make a difference.
+          </p>
+        </div>
+        <div class="col-lg-6 text-center my-5">
+          <img src="http://jortech.test/wp-content/themes/jortech-classic-custom-theme/assets/images/women-tech.webp"
+            alt="About Us Image" class="img-fluid rounded">
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Featured Section Start -->
   <div class="featured-items" id="featured-sec">
     <div class="container">
@@ -45,19 +55,19 @@
         <div class="col-md-12">
           <div class="section-heading">
             <div class="line-dec"></div>
-            <h1>Featured Items</h1>
+            <h2>Featured Items</h2>
           </div>
         </div>
         <div class="col-md-12">
           <div class="owl-carousel owl-theme">
-            <a href="single-product.html">
+            <a href="#">
               <div class="featured-item">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item-01.jpg" alt="Item 1">
                 <h4>Mechanical Keyboard</h4>
                 <h6>$115.00</h6>
               </div>
             </a>
-            <a href="single-product.html">
+            <a href="#">
               <div class="featured-item">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item-02.jpg" alt="Item 2">
                 <h4>Headphones</h4>
@@ -120,7 +130,6 @@
           </div>
         </div>
       </div>
-
     </div>
   </form>
   <!-- Form Section End -->
@@ -150,7 +159,6 @@
                 service is exceptional!"
               </p>
             </div>
-
           </div>
         </div>
         <div class="col-md-4 mb-3 mb-md-0">
@@ -201,7 +209,6 @@
       <div class="row">
         <div class="col-md-12">
           <div class="section-heading">
-            <div class="line-dec"></div>
             <h1>Subscribe now!</h1>
           </div>
         </div>
